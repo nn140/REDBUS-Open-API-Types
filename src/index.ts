@@ -1,3 +1,2 @@
-const Message: string = 'Hello World!';
-
-export { Message };
+export * from './flickr/index';
+export * from './redbus/index';

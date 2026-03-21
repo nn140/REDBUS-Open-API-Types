@@ -1,6 +1,6 @@
 {
-	"name": "@bracketed/package",
-	"description": "Description",
+	"name": "@nn140/redbus-api-types",
+	"description": "API types for REDBUS Bus Tracker Open API.",
 	"packageManager": "yarn@4.9.2",
 	"version": "1.0.0",
 	"private": true,
@@ -8,7 +8,7 @@
 		"access": "public"
 	},
 	"license": "Apache-2.0",
-	"author": "@bracketed",
+	"author": "ninjaninja140",
 	"main": "lib/cjs/index.cjs",
 	"module": "lib/esm/index.mjs",
 	"types": "lib/cjs/index.d.ts",
@@ -29,12 +29,12 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/bracketed/templates-package"
+		"url": "https://github.com/nn140/REDBUS-Open-API-Types"
 	},
-	"homepage": "https://bracketed.co.uk",
+	"homepage": "https://github.com/nn140/REDBUS-Open-API-Types",
 	"sideEffects": false,
 	"bugs": {
-		"url": "https://github.com/bracketed/templates-package/issues"
+		"url": "https://github.com/nn140/REDBUS-Open-API-Types/issues"
 	},
 	"keywords": [
 		"bracketed",
@@ -47,6 +47,7 @@
 		"update": "yarn upgrade-interactive"
 	},
 	"devDependencies": {
+		"@biomejs/biome": "^2.4.8",
 		"@bracketed/typescript-config": "^4.7.1",
 		"@swc/core": "^1.12.5",
 		"@types/node": "^24.0.3",
@@ -55,7 +56,6 @@
 		"esbuild-plugin-copy": "^2.1.1",
 		"esbuild-plugin-file-path-extensions": "^2.1.4",
 		"esbuild-plugin-version-injector": "^1.2.1",
-		"prettier": "^3.5.3",
 		"tslib": "^2.8.1",
 		"tsup": "^8.5.0",
 		"typescript": "^5.8.3"
