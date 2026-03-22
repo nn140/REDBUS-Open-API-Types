@@ -5,7 +5,8 @@
 		"module": "ESNext",
 		"baseUrl": ".",
 		"rootDir": "./src",
-		"outDir": "./lib"
+		"outDir": "./lib",
+		"types": ["@types/node"]
 	},
 	"include": ["src"],
 	"exclude": ["lib", "node_modules", "tsup.config.ts"]
