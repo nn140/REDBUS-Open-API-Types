@@ -1,8 +1,8 @@
 {
-	"name": "redbus-api-types",
+	"name": "@nn140/redbus-api-types",
 	"description": "API types for REDBUS Bus Tracker Open API.",
 	"packageManager": "yarn@4.9.2",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"publishConfig": {
 		"access": "public"
 	},
