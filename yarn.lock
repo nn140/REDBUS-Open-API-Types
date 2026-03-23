@@ -358,26 +358,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nn140/redbus-api-types@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@nn140/redbus-api-types@workspace:."
-  dependencies:
-    "@biomejs/biome": "npm:^2.4.8"
-    "@bracketed/tsup-configuration": "npm:^1.0.5"
-    "@bracketed/typescript-config": "npm:^4.7.1"
-    "@swc/core": "npm:^1.12.5"
-    "@types/node": "npm:^25.5.0"
-    esbuild: "npm:^0.25.5"
-    esbuild-fix-imports-plugin: "npm:^1.0.21"
-    esbuild-plugin-copy: "npm:^2.1.1"
-    esbuild-plugin-file-path-extensions: "npm:^2.1.4"
-    esbuild-plugin-version-injector: "npm:^1.2.1"
-    tslib: "npm:^2.8.1"
-    tsup: "npm:^8.5.0"
-    typescript: "npm:^5.8.3"
-  languageName: unknown
-  linkType: soft
-
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -1882,6 +1862,26 @@ __metadata:
   checksum: 10c0/6fa848cf63d1b82ab4e985f4cf72bd55b7dcfd8e0a376905804e48c3634b7e749170940ba77b32804d5fe93b3cc521aa95a8d7e7d725f830da6d93f3669ce66b
   languageName: node
   linkType: hard
+
+"redbus-api-types@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "redbus-api-types@workspace:."
+  dependencies:
+    "@biomejs/biome": "npm:^2.4.8"
+    "@bracketed/tsup-configuration": "npm:^1.0.5"
+    "@bracketed/typescript-config": "npm:^4.7.1"
+    "@swc/core": "npm:^1.12.5"
+    "@types/node": "npm:^25.5.0"
+    esbuild: "npm:^0.25.5"
+    esbuild-fix-imports-plugin: "npm:^1.0.21"
+    esbuild-plugin-copy: "npm:^2.1.1"
+    esbuild-plugin-file-path-extensions: "npm:^2.1.4"
+    esbuild-plugin-version-injector: "npm:^1.2.1"
+    tslib: "npm:^2.8.1"
+    tsup: "npm:^8.5.0"
+    typescript: "npm:^5.8.3"
+  languageName: unknown
+  linkType: soft
 
 "resolve-from@npm:^5.0.0":
   version: 5.0.0
